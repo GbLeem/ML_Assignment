@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>P4-SVM</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>P4_SVM</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -15175,7 +15175,7 @@ Test set accuracy: 97.50%
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>[답변작성] <br/>
-rbf 커널을 사용했을때 정확도가 높았다.<br/>
+rbf 커널을 사용했을때 정확도가 높아서 rbf를 최종적으로 사용했다.<br/>
 rbf커널의 정의는 다음과 같이 표현할 수 있다. $K(x_i,x_j) = e^{-\frac{||x_i-x_j||^2}{2\sigma^2}}$  <br/>
 rbf는 비선형 문제를 푸는데 가장 대중적으로 사용되는 커널이다. 또한 단순한 하이퍼 파라메터를 가진다는 장점이 있다. 그러나 overfitting의 문제가 발생할 수 있다는 단점이 존재한다. <br/>
 sigmoid를 사용했을때는 6개로 나눠지는 방사형으로 경계가 나누어졌다. 그러나 문제에 주어진 데이터를 분류하기에는 너무 많은 갯수로 나누어졌다. <br/>
